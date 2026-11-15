@@ -2,10 +2,14 @@
 
 # Command
 
+
 ``` shell
 # build image locally
-docker build                    \
---tag pi-coding-agent:latest    \
+DATE=$(date +%F)
+
+time docker build                   \
+--no-cache                          \
+--tag "run-pi-in-container:${DATE}" \
 .
 ```
 
