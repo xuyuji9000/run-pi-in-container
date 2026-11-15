@@ -15,3 +15,11 @@ docker compose run --rm pi
 # Ctrl + P, then Ctrl + Q
 # exit the container without killing it.
 ```
+
+``` shell
+# after task
+# Clean up work directory
+git clean \
+--force \
+-d
+```
