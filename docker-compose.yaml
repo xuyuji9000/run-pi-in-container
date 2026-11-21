@@ -1,6 +1,6 @@
 services:
   pi:
-    build: .
+    image: run-pi-in-container:2026-11-21
     container_name: pi-coding-agent
     stdin_open: true
     tty: true
